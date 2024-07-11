@@ -1,0 +1,28 @@
+@import url(./styles/accueil.css);
+
+:root{
+    --police: "Roboto", sans-serif;
+    --primary-color:  0, 0, 0;
+    --secondary-color: 255, 255, 255;
+
+    --red-color: 227, 7, 68;
+
+    --healine-font-size: 42px;
+    --headline-font-weight:700;
+
+    --subhealine-font-size:22px;
+    --subheadline-font-weight:400;
+
+    --body-font-size:18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--police);
+} 
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
